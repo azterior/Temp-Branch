@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Unit/Attacks/Attacks.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+attack_name = "Default"
+damage = 5
+targeted_tiles = [ Vector2( 0, 0 ) ]
+special_effects = [ "\"Default\"" ]
